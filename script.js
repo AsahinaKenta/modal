@@ -8,7 +8,7 @@ console.dir(imgLists.children[0]);
 
 for (var i = 0; i < imgLists.children.length; i++) {
   imgLists.children[i].addEventListener('click', (function(index){
-      return function(){
+    return function(){
       // console.dir(imgLists);
       // console.dir(imgLists.children[i]);
       console.log(index);
