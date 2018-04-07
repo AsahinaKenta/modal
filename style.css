@@ -33,3 +33,19 @@ ul {
 img{
   width: 100%;
 }
+
+.prev-btn,.next-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: #000;
+}
+
+.prev-btn{
+  left: 2%;
+}
+
+.next-btn{
+  right: 2%;
+}
